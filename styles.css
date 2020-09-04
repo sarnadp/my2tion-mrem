@@ -12,10 +12,17 @@
   font-family: 'Abel', sans-serif;
   font-size: 1rem;
   margin-left: 1%;
+
+}
+.my2{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 1%;
 }
 
 .nav-item {
   padding: 0 8px;
+  font-size: 1.75rem;
 }
 
 .image-banner {
@@ -96,9 +103,11 @@ width: 100%;
 
 .card-title{
   text-align: center;
+  font-size: 2rem;
 }
 .card-text{
   text-align: justify;
+  font-size: 1.5rem;
 }
 
 section.pricing {
@@ -171,13 +180,16 @@ section.pricing {
 }
 
 .price-btn {
-  font-size: 80%;
+  font-size: 1.5rem;
   border-radius: 5rem;
   letter-spacing: .1rem;
   font-weight: bold;
   padding: 1rem;
   opacity: 0.7;
   transition: all 0.2s;
+}
+.view{
+  font-size: 1.5rem;
 }
 
 #carouselExampleCaptions {
@@ -210,6 +222,11 @@ section.pricing {
 }
 .back-1-text{
   color: white;
+
+}
+.back-2-text{
+  color: white;
+  font-size: 1.5rem;
 }
 .image-wordings{
   color: Black;
@@ -314,6 +331,7 @@ section.pricing {
     color: #999;
     text-overflow: ellipsis;
     white-space: nowrap;
+
 }
 
 .card-comments .media-heading {
@@ -561,3 +579,15 @@ text-align: justify;
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+/* #navbarSupportedContent{
+  float: right;
+} */
