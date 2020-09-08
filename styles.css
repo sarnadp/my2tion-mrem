@@ -1,23 +1,30 @@
 #title {
   background-color: #fff;
+  max-width: 100%;
 }
 
 .navbar-brand-short {
-  font-family: 'Abel', sans-serif;
-  font-size: 3rem;
+  /* font-family: 'Abel', sans-serif;
+  font-size: 3rem; */
   /* margin-left: 2px; */
 }
 
 .navbar-brand {
-  font-family: 'Abel', sans-serif;
-  font-size: 1rem;
-  margin-left: 1%;
+  /* font-family: 'Abel', sans-serif; */
+  /* font-size: 1rem; */
+  /* margin-left: 1%; */
 
 }
+
 .my2{
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
   margin-top: 1%;
+}
+.college{
+  font-size: 1.75rem;
+  padding-left: 1%;
+  padding-top: 1%;
 }
 
 .nav-item {
@@ -103,11 +110,11 @@ width: 100%;
 
 .card-title{
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .card-text{
   text-align: justify;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 
 section.pricing {
@@ -180,7 +187,7 @@ section.pricing {
 }
 
 .price-btn {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   border-radius: 5rem;
   letter-spacing: .1rem;
   font-weight: bold;
@@ -189,7 +196,7 @@ section.pricing {
   transition: all 0.2s;
 }
 .view{
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 #carouselExampleCaptions {
@@ -213,7 +220,7 @@ section.pricing {
 .back-1{
   background-color: #27496d;
   padding-left: 3%;
-  padding-top: 1%;
+  padding-top: 100px;
   text-align: center;
 }
 .back-2{
@@ -222,11 +229,12 @@ section.pricing {
 }
 .back-1-text{
   color: white;
+  font-size: 3rem;
 
 }
 .back-2-text{
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 .image-wordings{
   color: Black;
