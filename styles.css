@@ -1,35 +1,26 @@
 #title {
   background-color: #fff;
-  max-width: 100%;
+}
+.navbar-brand {
+  font-family: 'Abel', sans-serif;
+  font-size: 3rem;
+  margin-left: 1%;
+
 }
 
 .navbar-brand-short {
-  /* font-family: 'Abel', sans-serif;
-  font-size: 3rem; */
+  font-family: 'Abel', sans-serif;
+  font-size: 3rem;
   /* margin-left: 2px; */
-}
-
-.navbar-brand {
-  /* font-family: 'Abel', sans-serif; */
-  /* font-size: 1rem; */
-  /* margin-left: 1%; */
-
-}
-
-.my2{
-  font-size: 2rem;
-  font-weight: bold;
-  margin-top: 1%;
-}
-.college{
-  font-size: 1.75rem;
-  padding-left: 1%;
-  padding-top: 1%;
 }
 
 .nav-item {
   padding: 0 8px;
   font-size: 1.75rem;
+}
+.college {
+  font-family: 'Abel', sans-serif;
+  font-size: 1.5rem;
 }
 
 .image-banner {
@@ -64,7 +55,7 @@ h1 {}
 .my2tion-block {
 width: 100%;
   height: 250px;
-  background-color: red;
+  background-color: #000000;
   /* margin-left: auto; */
   /* margin-right: auto; */
 
@@ -73,16 +64,17 @@ width: 100%;
 .my2tion {
   padding-top: 2%;
   font-family: 'Acme', sans-serif;
-  font-size: 5rem;
+  font-size: 8rem;
   color: #fff;
   padding-left: 15%;
+
 }
 
 .my2tion-tag {
   padding-left: 45%;
   color: #fff;
   font-family: 'Acme', sans-serif;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   margin-bottom: 5px;
 }
 
@@ -182,7 +174,7 @@ section.pricing {
 
 .card-deck {
   padding: 3%;
-  background-color: #00005c;
+  background-color: #c0c0c0;
 
 }
 
@@ -194,9 +186,6 @@ section.pricing {
   padding: 1rem;
   opacity: 0.7;
   transition: all 0.2s;
-}
-.view{
-  font-size: 2rem;
 }
 
 #carouselExampleCaptions {
@@ -216,11 +205,12 @@ section.pricing {
 }
 .ban-2{
   padding-left: 0px;
+  padding-right: 0px;
 }
 .back-1{
-  background-color: #27496d;
+  background-color: #c0c0c0;
   padding-left: 3%;
-  padding-top: 100px;
+  padding-top: 1%;
   text-align: center;
 }
 .back-2{
@@ -228,13 +218,14 @@ section.pricing {
   padding-top: 1%;
 }
 .back-1-text{
-  color: white;
+  color: black;
   font-size: 3rem;
 
 }
 .back-2-text{
-  color: white;
+  color: #808080	;
   font-size: 1.75rem;
+
 }
 .image-wordings{
   color: Black;
@@ -339,7 +330,6 @@ section.pricing {
     color: #999;
     text-overflow: ellipsis;
     white-space: nowrap;
-
 }
 
 .card-comments .media-heading {
@@ -487,115 +477,71 @@ text-align: justify;
 }
 
 .btn-faculty{ border-radius: 50%; width:32px; height:32px; line-height:18px;  }
-
-/* Dropdown Button */
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  /* font-size: 80%;
-  border-radius: 5rem;
-  letter-spacing: .1rem;
-  font-weight: bold;
-  padding: 1rem;
-  opacity: 0.7;
-  transition: all 0.2s; */
+.view{
+  font-size: 2rem;
 }
+.card-text-color {
+      animation: blinker 0.6s linear infinite;
+      color: yellow;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: sans-serif;
+    }
+    @keyframes blinker {
+      50% {
+        opacity: 0;
+      }
+    }
+    .card-text-color-one {
+      animation: blinker-one 1s linear infinite;
+    }
+    @keyframes blinker-one {
+      0% {
+        opacity: 0;
+      }
+    }
+    .card-text-color-two {
+      animation: blinker-two 1.4s linear infinite;
+    }
+    @keyframes blinker-two {
+      100% {
+        opacity: 0;
+      }
+    }
+    .counter {
+        background-color:#f5f5f5;
+        padding: 20px 0;
+        border-radius: 5px;
+    }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
+    .count-title {
+        font-size: 40px;
+        font-weight: normal;
+        margin-top: 10px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .count-text {
+        font-size: 13px;
+        font-weight: normal;
+        margin-top: 10px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .fa-2x {
+        margin: 0 auto;
+        float: none;
+        display: table;
+        color: #4ad1e5;
+    }
+    .number{
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-family: 'Abel', sans-serif;
+      font-size: 4rem;
+    }
+.terms{
+  padding-left: 45%;
 }
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #3e8e41;
-}
-
-#myInput {
-  box-sizing: border-box;
-  background-image: url('searchicon.png');
-  background-position: 14px 12px;
-  background-repeat: no-repeat;
-  font-size: 16px;
-  padding: 14px 20px 12px 45px;
-  border: none;
-  border-bottom: 1px solid #ddd;
-}
-
-#myInput:focus {outline: 3px solid #ddd;}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f6f6f6;
-  min-width: 230px;
-  overflow: auto;
-  border: 1px solid #ddd;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown a:hover {background-color: #ddd;}
-
-.show {display: block;}
-.dropdown-submenu {
-  position: relative;
-}
-
-.dropdown-submenu .dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -1px;
-}
-/* #navbarSupportedContent{
-  float: right;
-} */
